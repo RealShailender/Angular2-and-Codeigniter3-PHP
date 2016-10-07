@@ -1,0 +1,21 @@
+<div class="container">
+  <div class="row">
+    <h1>Home Inspection Login Form</h1>
+    <div class="content-w3ls">
+       <form (ngSubmit)="login()" #heroForm="ngForm">
+        <div class="form-group1-agile">
+          <label class="user">Username</label>
+          <input type="text" [(ngModel)]='username' required name="username" placeholder="ENTER YOUR USERNAME HERE" >
+        </div>
+        <div class="form-group2-agile">
+          <label class="pwd">Password</label>
+          <input type="password" [(ngModel)]='password' required name="password" placeholder="ENTER YOUR PASSWORD HERE">
+        </div>
+        <label class="chkbox"><input type="checkbox" id="Sign-in" value="Sign-in"><p>Keep Me Signed In</p></label>
+
+        <input type="submit" [disabled]="!heroForm.form.valid" value="LOG IN">
+        
+      </form>
+    </div>
+  </div>
+</div>

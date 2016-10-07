@@ -1,0 +1,423 @@
+.container{
+    background: url(assets/images/login.jpg);
+    background-position: center;
+    background-attachment: fixed;
+}
+.content-w3ls {
+	width: 35%;
+	margin-top:5%;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:4px;
+	font-family: 'Play', sans-serif;
+}
+h1 {
+	padding:60px 0 30px;
+	font-size:50px;
+	text-transform:uppercase;
+	text-align:center;
+	color:#fff;
+	font-weight:normal;
+	letter-spacing:4px;
+	font-family: 'Play', sans-serif;
+}
+.form-group1-agile {
+    position: relative;
+	margin-bottom:50px;
+}
+label.user {
+	position: absolute;
+    bottom: 60px;
+    color: #eac0c2;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+input[type="text"] {
+	padding:10px 30px 10px 10px;
+	width:96%;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	border-top: 1px solid #fff;
+	color:white; 
+	text-align:left;
+	outline:none;
+	font-family: 'Poiret One', cursive;
+	font-size:25px;
+	font-weight:normal;
+	letter-spacing:1px;
+	background:url(assets/images/check.png) no-repeat 580px 10px;
+}
+.form-group2-agile {
+    position: relative;
+}
+label.pwd {
+	position: absolute;
+    bottom: 60px;
+    color: #eac0c2;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: normal;
+    letter-spacing: 4px;
+}
+input[type="password"] {
+	padding:10px 30px 10px 10px;
+	width:96%;
+	border-left:none;
+	border-right:none;
+	border-bottom:none;
+	border-top: 1px solid #fff;
+	color:white;
+	text-align:left;
+	outline:none;
+	font-size:25px;
+	font-weight:normal;
+	font-family: 'Poiret One', cursive;
+	background:url(assets/images/check.png) no-repeat 580px 10px;
+	margin-top:6%;
+	letter-spacing:1px;
+}
+label.chkbox {
+	vertical-align:middle;
+	padding:30px 0;
+	display:block;
+}
+label.chkbox p {
+	color: #ffae8a;
+	letter-spacing:3px;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'Play', sans-serif;
+    margin: -20px 0 0 23px;
+}
+input[type="submit"] {
+	padding:10px;
+	background-color: rgba(255, 84, 100, 0.17);
+    width: 104%;
+    border: 1px solid #fff;
+	cursor:pointer;
+	color:white;
+	font-family: 'Poiret One', cursive;
+	font-size:25px;
+	font-weight:600;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+}
+input[type="submit"]:hover {
+	background-color:#6f1c21;
+	color:white;
+	border:1px solid #6f1c21;
+}
+a.pwdlost {
+    color:#ffa68a;
+	letter-spacing:3px;
+    text-align: center;
+    display: block;
+    padding: 30px 0;
+	font-size:20px;
+	text-transform:uppercase;
+	font-weight:normal;
+	font-family: 'Play', sans-serif;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+}
+a.pwdlost:hover {
+	color:#ff8280;
+} 
+.footer-w3ls {
+	margin-top:7%;
+	text-align:center;
+}
+.footer-w3ls p,.footer-w3ls p a {
+	font-family: 'Play', sans-serif;
+	font-size:18px;
+	line-height:30px;
+	letter-spacing:1px;
+	font-weight:normal;
+	color:#fff;
+	transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+}
+.footer-w3ls p a:hover {
+	color:red;
+}
+
+/*-- RESPONSIVE DESIGN --*/
+@media (max-width:1660px) {
+	input[type="text"],input[type="password"]  {
+	background:url(assets/images/check.png) no-repeat 550px 10px;
+}
+}
+
+@media (max-width:1440px) {
+h1 {
+	font-size:45px;
+}
+	input[type="text"],input[type="password"]  {
+	background:url(assets/images/check.png) no-repeat 495px 10px;
+}	
+}
+
+@media (max-width:1366px) {
+	input[type="text"],input[type="password"]  {
+	background:url(assets/images/check.png) no-repeat 465px 10px;
+}	
+}
+
+@media (max-width:1280px) {
+	input[type="text"],input[type="password"]  {
+	background:url(assets/images/check.png) no-repeat 435px 10px;
+}	
+}
+
+@media (max-width:1080px) {
+.content-w3ls {
+    width: 40%;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 420px 10px;
+}	
+}
+
+@media (max-width:1050px) {
+label.chkbox p {
+	margin:-19px 0 0 23px;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 410px 10px;
+}
+}
+
+@media (max-width: 1024px) {
+	h1 {
+    font-size: 40px;
+	padding: 40px 0 30px;
+}
+.footer-w3ls {
+    margin-top: 4%;
+}
+.content-w3ls {
+    width: 45%;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 445px 10px;
+}
+}
+
+@media (max-width: 991px) {
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 427px 10px;
+	font-size:20px;
+	}
+}
+
+@media (max-width: 900px) {
+h1 {
+    font-size: 35px;
+    padding: 40px 0;
+}
+label.user,label.pwd {
+	font-size:16px;
+	bottom:50px;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 392px 10px;
+    font-size: 18px;
+}
+label.chkbox p {
+	font-size:14px;
+}
+input[type="submit"] {
+	font-size:20px;
+}
+a.pwdlost {
+	font-size:16px;
+}
+.footer-w3ls p, .footer-w3ls p a {
+	font-size:16px;
+}
+}
+
+@media (max-width: 768px) {
+.content-w3ls {
+    width: 55%;
+}
+h1 {
+    padding: 55px 0 50px;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 410px 10px;
+}
+}
+
+@media (max-width: 736px) {
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 383px 10px;
+}
+.footer-w3ls p, .footer-w3ls p a {
+	padding-bottom:20px;
+}
+}
+
+@media (max-width: 667px) {
+h1 {
+    padding: 35px 0 30px;
+}
+.content-w3ls {
+    width: 60%;
+}
+.form-group1-agile {
+	margin-bottom:40px;
+}
+}
+
+@media (max-width:640px){
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 360px 10px;
+}
+h1 {
+	font-size:30px;
+}
+input[type="text"], input[type="password"] {
+	font-size:16px;
+}
+input[type="submit"] {
+    font-size: 16px;
+}
+a.pwdlost {
+    font-size: 15px;
+	padding:25px 0;
+}
+.footer-w3ls {
+    margin-top: 3%;
+}
+}
+
+@media (max-width: 600px) {
+.content-w3ls {
+    width: 65%;
+}
+h1 {
+    padding: 35px 0 40px;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 365px 10px;
+}
+.form-group1-agile {
+    margin-bottom: 35px;
+}
+}
+
+@media (max-width: 568px) {
+.content-w3ls {
+    width: 70%;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 370px 10px;
+}
+}
+
+@media (max-width: 480px) {
+input[type="text"], input[type="password"] {
+	padding:10px 20px 10px 0;
+	background: url(assets/images/check.png) no-repeat 310px 10px;
+}
+input[type="submit"] {
+	width:100%;
+}
+label.user, label.pwd {
+    font-size: 15px;
+    bottom: 45px;
+}
+.footer-w3ls p, .footer-w3ls p a {
+    font-size: 15px;
+}
+}
+
+@media (max-width: 414px) {
+.content-w3ls {
+    width: 80%;
+}
+label.user, label.pwd {
+    font-size: 14px;
+}
+input[type="text"], input[type="password"] {
+	background: url(assets/images/check.png) no-repeat 305px 10px;
+}
+input[type="submit"] {
+    font-size: 15px;
+    padding: 8px;
+}
+a.pwdlost {
+    font-size: 14px;
+}
+.footer-w3ls p {
+	padding:0 10px; 
+}
+}
+
+@media (max-width: 384px) {
+h1 {
+    font-size: 27px;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 282px 10px;
+}
+input[type="submit"] {
+	padding:8px;
+}
+}
+
+@media (max-width: 375px) {
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 274px 10px;
+    font-size: 15px;
+}
+label.chkbox {
+	padding:25px 0;
+}
+a.pwdlost {
+	padding:20px 0;
+}
+.footer-w3ls p, .footer-w3ls p a {
+    font-size: 14px;
+}
+}
+
+
+@media (max-width: 320px) {
+h1 {
+    font-size: 22px;
+	padding:35px 0;
+}
+label.user, label.pwd {
+	bottom:43px;
+}
+input[type="text"], input[type="password"] {
+    background: url(assets/images/check.png) no-repeat 230px 4px;
+    font-size: 14px;
+}
+label.chkbox p {
+    font-size: 13px;
+	margin:-18px 0 0 23px;
+}
+label.chkbox {
+    padding: 25px 0 20px;
+}
+input[type="submit"] {
+    padding: 7px;
+	font-size:14px;
+}
+}
